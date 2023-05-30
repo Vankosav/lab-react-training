@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.cardDiv{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border: 1px solid black;
+  width: 400px;
+  margin: 20px;
+}
+
+.cardImage{
+  padding: 20px;
+}
+
+.cardTextDiv{
+  text-align: left;
+  padding: 5px;
+}
