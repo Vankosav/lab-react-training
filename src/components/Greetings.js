@@ -2,10 +2,11 @@ import React from 'react';
 
 const Greetings = ({ lang, children }) => {
   let greeting = "";
-  if (lang === "de") {
-    greeting = "Hallo";
-  } else if (lang === "fr") {
-    greeting = "Bonjour";
+  
+  if (lang === "ser") {
+    greeting = "Zdravo" ;
+  } else if (lang === "hr") {
+    greeting = "Bok";
   }
 
   return (
