@@ -1,6 +1,6 @@
 import React from 'react';
-
-const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
+const IdCard = ({ lastName, firstName, gender, height, birth, picture }) =>
+ {
   return (
     <div>
       <div>
